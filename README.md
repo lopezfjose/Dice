@@ -1,4 +1,9 @@
 
+Dice
+=========
+
+This is just a basic hobby project I made because I couldn't really find any options that had the features and complexity I wanted, let alone the intuitive interface and accessiblity, so here we are. Feel free to drop me a line if you have a feature request, bug fix, etc.
+
 Basic Example
 =============
 
@@ -47,3 +52,15 @@ numberOfTimesToRollDice = dice.EnterNumberOfDiceRolls()
 diceToRoll              = dice.SetDiceToRoll([newDie, newDie, newDie])
 dice.RollDice(numberOfTimesToRollDice, diceToRoll)
 ```
+
+Command Line Options
+====================
+
+```commandline
+python main.py --config="default.cfg"
+```
+Output
+```commandline
+Configuration file: default.cfg
+```
+
